@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Build",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_qt_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_qt_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_qt_demo-Build-8e3813bc8c4fe21fdbfe.json",
+					"name" : "ros2_qt_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_qt_demo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_qt_demo_uninstall-Build-4dc65573bab5241c1f9a.json",
+					"name" : "ros2_qt_demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Build-c7d367d3e51f14aa0547.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/skylar-xty/Add_Pan/ROS2/ros2_ws1/src/ros2_qt_demo/build",
+		"source" : "/home/skylar-xty/Add_Pan/ROS2/ros2_ws1/src/ros2_qt_demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
