@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000125] (ros2_qt5_gui_app) JobQueued: {'identifier': 'ros2_qt5_gui_app', 'dependencies': OrderedDict()}
+[0.000196] (ros2_qt5_gui_app) JobStarted: {'identifier': 'ros2_qt5_gui_app'}
+[0.007485] (ros2_qt5_gui_app) JobProgress: {'identifier': 'ros2_qt5_gui_app', 'progress': 'cmake'}
+[0.007646] (ros2_qt5_gui_app) Command: {'cmd': ['/usr/local/bin/cmake', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app', '-DCMAKE_INSTALL_PREFIX=/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app'], 'cwd': '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'skylar-xty'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('SSH_AGENT_PID', '1785'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/skylar-xty'), ('OLDPWD', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1640'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bee1677da81e1e2670804488642ada73'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install:/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skylar-xty'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:37634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/skylar-xty/.local/bin:/home/skylar-xty/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/skylar-xty:@/tmp/.ICE-unix/1828,unix/skylar-xty:/tmp/.ICE-unix/1828'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '420d7c9da4f345bf8eaf898074259685'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1f4a2988_88d8_47c7_a473_bec6aacc68f4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/skylar-xty/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/skylar-xty'), ('AMENT_PREFIX_PATH', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/install/ros2_qt5_gui_app:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bee1677da81e1e2670804488642ada73'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/install/ros2_qt5_gui_app:/opt/ros/foxy')]), 'shell': False}
+[0.057283] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- The C compiler identification is GNU 10.3.0\n'}
+[0.098592] (-) TimerEvent: {}
+[0.109336] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 10.3.0\n'}
+[0.119635] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.175019] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.176841] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.198717] (-) TimerEvent: {}
+[0.216103] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.258326] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.259139] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.264925] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.298821] (-) TimerEvent: {}
+[0.310786] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.312688] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.359549] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.394654] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.395946] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.398323] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.398888] (-) TimerEvent: {}
+[0.418292] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.418674] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.499006] (-) TimerEvent: {}
+[0.584884] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.599123] (-) TimerEvent: {}
+[0.664276] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.677437] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.699229] (-) TimerEvent: {}
+[0.755852] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.799343] (-) TimerEvent: {}
+[0.801313] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.899448] (-) TimerEvent: {}
+[0.959562] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.999571] (-) TimerEvent: {}
+[1.099832] (-) TimerEvent: {}
+[1.105774] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.109597] (ros2_qt5_gui_app) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.111238] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.152564] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.152940] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.195419] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.195656] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.199917] (-) TimerEvent: {}
+[1.229566] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.229759] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.271448] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.273601] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.300026] (-) TimerEvent: {}
+[1.400297] (-) TimerEvent: {}
+[1.500610] (-) TimerEvent: {}
+[1.600881] (-) TimerEvent: {}
+[1.684712] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.71.0") found components: thread \n'}
+[1.694422] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.700953] (-) TimerEvent: {}
+[1.792063] (ros2_qt5_gui_app) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.796716] (ros2_qt5_gui_app) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.797529] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app/include\n'}
+[1.797607] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.801035] (-) TimerEvent: {}
+[1.801782] (ros2_qt5_gui_app) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.801849] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.804232] (ros2_qt5_gui_app) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.808951] (ros2_qt5_gui_app) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.808999] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.810379] (ros2_qt5_gui_app) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.813977] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.829871] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Generating done\n'}
+[1.831797] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Build files have been written to: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app\n'}
+[1.840144] (ros2_qt5_gui_app) CommandEnded: {'returncode': 0}
+[1.840799] (ros2_qt5_gui_app) JobProgress: {'identifier': 'ros2_qt5_gui_app', 'progress': 'build'}
+[1.841460] (ros2_qt5_gui_app) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app', '--', '-j16', '-l16'], 'cwd': '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'skylar-xty'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('SSH_AGENT_PID', '1785'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/skylar-xty'), ('OLDPWD', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1640'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bee1677da81e1e2670804488642ada73'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install:/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skylar-xty'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:37634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/skylar-xty/.local/bin:/home/skylar-xty/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/skylar-xty:@/tmp/.ICE-unix/1828,unix/skylar-xty:/tmp/.ICE-unix/1828'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '420d7c9da4f345bf8eaf898074259685'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1f4a2988_88d8_47c7_a473_bec6aacc68f4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/skylar-xty/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/skylar-xty'), ('AMENT_PREFIX_PATH', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/install/ros2_qt5_gui_app:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bee1677da81e1e2670804488642ada73'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/install/ros2_qt5_gui_app:/opt/ros/foxy')]), 'shell': False}
+[1.857339] (ros2_qt5_gui_app) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating qrc_image.cpp\x1b[0m\n'}
+[1.857602] (ros2_qt5_gui_app) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating include/moc_mainwindow.cpp\x1b[0m\n'}
+[1.857680] (ros2_qt5_gui_app) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating ui_mainwindow.h\x1b[0m\n'}
+[1.857725] (ros2_qt5_gui_app) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating include/moc_rclcomm.cpp\x1b[0m\n'}
+[1.865245] (ros2_qt5_gui_app) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_qt5_gui_app\x1b[0m\n'}
+[1.901153] (-) TimerEvent: {}
+[1.929427] (ros2_qt5_gui_app) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ros2_qt5_gui_app.dir/src/main.cpp.o\x1b[0m\n'}
+[1.929705] (ros2_qt5_gui_app) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ros2_qt5_gui_app.dir/src/mainwindow.cpp.o\x1b[0m\n'}
+[1.929818] (ros2_qt5_gui_app) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ros2_qt5_gui_app.dir/src/rclcomm.cpp.o\x1b[0m\n'}
+[1.929920] (ros2_qt5_gui_app) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ros2_qt5_gui_app.dir/include/moc_mainwindow.cpp.o\x1b[0m\n'}
+[1.930040] (ros2_qt5_gui_app) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ros2_qt5_gui_app.dir/include/moc_rclcomm.cpp.o\x1b[0m\n'}
+[1.930190] (ros2_qt5_gui_app) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/ros2_qt5_gui_app.dir/qrc_image.cpp.o\x1b[0m\n'}
+[2.001251] (-) TimerEvent: {}
+[2.101534] (-) TimerEvent: {}
+[2.201851] (-) TimerEvent: {}
+[2.302149] (-) TimerEvent: {}
+[2.402523] (-) TimerEvent: {}
+[2.502921] (-) TimerEvent: {}
+[2.603351] (-) TimerEvent: {}
+[2.703708] (-) TimerEvent: {}
+[2.804061] (-) TimerEvent: {}
+[2.904423] (-) TimerEvent: {}
+[3.004738] (-) TimerEvent: {}
+[3.105032] (-) TimerEvent: {}
+[3.205343] (-) TimerEvent: {}
+[3.305695] (-) TimerEvent: {}
+[3.406101] (-) TimerEvent: {}
+[3.506507] (-) TimerEvent: {}
+[3.606900] (-) TimerEvent: {}
+[3.707291] (-) TimerEvent: {}
+[3.807669] (-) TimerEvent: {}
+[3.907975] (-) TimerEvent: {}
+[4.008249] (-) TimerEvent: {}
+[4.108538] (-) TimerEvent: {}
+[4.208807] (-) TimerEvent: {}
+[4.309081] (-) TimerEvent: {}
+[4.409384] (-) TimerEvent: {}
+[4.509657] (-) TimerEvent: {}
+[4.609930] (-) TimerEvent: {}
+[4.710225] (-) TimerEvent: {}
+[4.810499] (-) TimerEvent: {}
+[4.910768] (-) TimerEvent: {}
+[5.011050] (-) TimerEvent: {}
+[5.111319] (-) TimerEvent: {}
+[5.211606] (-) TimerEvent: {}
+[5.311937] (-) TimerEvent: {}
+[5.412234] (-) TimerEvent: {}
+[5.512509] (-) TimerEvent: {}
+[5.612789] (-) TimerEvent: {}
+[5.713148] (-) TimerEvent: {}
+[5.810021] (ros2_qt5_gui_app) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ros2_qt5_gui_app\x1b[0m\n'}
+[5.813196] (-) TimerEvent: {}
+[5.913444] (-) TimerEvent: {}
+[6.013749] (-) TimerEvent: {}
+[6.114092] (-) TimerEvent: {}
+[6.214403] (-) TimerEvent: {}
+[6.277764] (ros2_qt5_gui_app) StdoutLine: {'line': b'[100%] Built target ros2_qt5_gui_app\n'}
+[6.281433] (ros2_qt5_gui_app) CommandEnded: {'returncode': 0}
+[6.297419] (ros2_qt5_gui_app) JobProgress: {'identifier': 'ros2_qt5_gui_app', 'progress': 'install'}
+[6.301043] (ros2_qt5_gui_app) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app'], 'cwd': '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'skylar-xty'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('SSH_AGENT_PID', '1785'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/skylar-xty'), ('OLDPWD', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1640'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bee1677da81e1e2670804488642ada73'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install:/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'skylar-xty'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:37634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/skylar-xty/.local/bin:/home/skylar-xty/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/skylar-xty:@/tmp/.ICE-unix/1828,unix/skylar-xty:/tmp/.ICE-unix/1828'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '420d7c9da4f345bf8eaf898074259685'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1f4a2988_88d8_47c7_a473_bec6aacc68f4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/skylar-xty/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/skylar-xty'), ('AMENT_PREFIX_PATH', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/install/ros2_qt5_gui_app:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bee1677da81e1e2670804488642ada73'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/install/ros2_qt5_gui_app:/opt/ros/foxy')]), 'shell': False}
+[6.304865] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.305064] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/lib/ros2_qt5_gui_app/ros2_qt5_gui_app\n'}
+[6.306543] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Set runtime path of "/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/lib/ros2_qt5_gui_app/ros2_qt5_gui_app" to ""\n'}
+[6.306676] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ament_index/resource_index/package_run_dependencies/ros2_qt5_gui_app\n'}
+[6.306843] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ament_index/resource_index/parent_prefix_path/ros2_qt5_gui_app\n'}
+[6.306999] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/environment/ament_prefix_path.sh\n'}
+[6.307125] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/environment/ament_prefix_path.dsv\n'}
+[6.307316] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/environment/path.sh\n'}
+[6.307463] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/environment/path.dsv\n'}
+[6.307588] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/local_setup.bash\n'}
+[6.307711] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/local_setup.sh\n'}
+[6.307833] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/local_setup.zsh\n'}
+[6.307971] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/local_setup.dsv\n'}
+[6.308105] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/package.dsv\n'}
+[6.308259] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ament_index/resource_index/packages/ros2_qt5_gui_app\n'}
+[6.308405] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/cmake/ros2_qt5_gui_appConfig.cmake\n'}
+[6.308468] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/cmake/ros2_qt5_gui_appConfig-version.cmake\n'}
+[6.308578] (ros2_qt5_gui_app) StdoutLine: {'line': b'-- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/package.xml\n'}
+[6.309452] (ros2_qt5_gui_app) CommandEnded: {'returncode': 0}
+[6.314468] (-) TimerEvent: {}
+[6.341319] (ros2_qt5_gui_app) JobEnded: {'identifier': 'ros2_qt5_gui_app', 'rc': 0}
+[6.341896] (-) EventReactorShutdown: {}

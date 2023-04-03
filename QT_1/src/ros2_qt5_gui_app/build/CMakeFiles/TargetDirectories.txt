@@ -1,0 +1,10 @@
+/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app/build/CMakeFiles/install/strip.dir
+/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app/build/CMakeFiles/install/local.dir
+/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app/build/CMakeFiles/install.dir
+/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app/build/CMakeFiles/list_install_components.dir
+/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app/build/CMakeFiles/rebuild_cache.dir
+/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app/build/CMakeFiles/edit_cache.dir
+/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app/build/CMakeFiles/test.dir
+/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app/build/CMakeFiles/ros2_qt5_gui_app.dir
+/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app/build/CMakeFiles/ros2_qt5_gui_app_uninstall.dir
+/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app/build/CMakeFiles/uninstall.dir

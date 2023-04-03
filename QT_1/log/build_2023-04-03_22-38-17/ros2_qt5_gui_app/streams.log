@@ -1,0 +1,86 @@
+[0.009s] Invoking command in '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app -DCMAKE_INSTALL_PREFIX=/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app
+[0.057s] -- The C compiler identification is GNU 10.3.0
+[0.109s] -- The CXX compiler identification is GNU 10.3.0
+[0.120s] -- Check for working C compiler: /usr/bin/cc
+[0.175s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.177s] -- Detecting C compiler ABI info
+[0.216s] -- Detecting C compiler ABI info - done
+[0.258s] -- Detecting C compile features
+[0.259s] -- Detecting C compile features - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++
+[0.311s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.313s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.395s] -- Detecting CXX compile features
+[0.396s] -- Detecting CXX compile features - done
+[0.398s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.418s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.419s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.585s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.664s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.677s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.756s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.801s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.959s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.106s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.109s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.111s] -- Looking for pthread.h
+[1.152s] -- Looking for pthread.h - found
+[1.153s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.195s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.195s] -- Looking for pthread_create in pthreads
+[1.230s] -- Looking for pthread_create in pthreads - not found
+[1.230s] -- Looking for pthread_create in pthread
+[1.271s] -- Looking for pthread_create in pthread - found
+[1.273s] -- Found Threads: TRUE  
+[1.685s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.71.0") found components: thread 
+[1.694s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.792s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.797s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.797s] -- Configured cppcheck include dirs: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app/include
+[1.797s] -- Configured cppcheck exclude dirs and/or files: 
+[1.802s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.802s] -- Configured cpplint exclude dirs and/or files: 
+[1.804s] -- Added test 'lint_cmake' to check CMake code style
+[1.809s] -- Added test 'uncrustify' to check C / C++ code style
+[1.809s] -- Configured uncrustify additional arguments: 
+[1.810s] -- Added test 'xmllint' to check XML markup files
+[1.814s] -- Configuring done
+[1.830s] -- Generating done
+[1.832s] -- Build files have been written to: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app
+[1.840s] Invoked command in '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app -DCMAKE_INSTALL_PREFIX=/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app
+[1.842s] Invoking command in '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app -- -j16 -l16
+[1.857s] [  9%] [34m[1mGenerating qrc_image.cpp[0m
+[1.857s] [ 27%] [34m[1mGenerating include/moc_mainwindow.cpp[0m
+[1.858s] [ 27%] [34m[1mGenerating ui_mainwindow.h[0m
+[1.858s] [ 36%] [34m[1mGenerating include/moc_rclcomm.cpp[0m
+[1.865s] [35m[1mScanning dependencies of target ros2_qt5_gui_app[0m
+[1.929s] [ 45%] [32mBuilding CXX object CMakeFiles/ros2_qt5_gui_app.dir/src/main.cpp.o[0m
+[1.930s] [ 54%] [32mBuilding CXX object CMakeFiles/ros2_qt5_gui_app.dir/src/mainwindow.cpp.o[0m
+[1.930s] [ 63%] [32mBuilding CXX object CMakeFiles/ros2_qt5_gui_app.dir/src/rclcomm.cpp.o[0m
+[1.930s] [ 72%] [32mBuilding CXX object CMakeFiles/ros2_qt5_gui_app.dir/include/moc_mainwindow.cpp.o[0m
+[1.930s] [ 81%] [32mBuilding CXX object CMakeFiles/ros2_qt5_gui_app.dir/include/moc_rclcomm.cpp.o[0m
+[1.930s] [ 90%] [32mBuilding CXX object CMakeFiles/ros2_qt5_gui_app.dir/qrc_image.cpp.o[0m
+[5.810s] [100%] [32m[1mLinking CXX executable ros2_qt5_gui_app[0m
+[6.278s] [100%] Built target ros2_qt5_gui_app
+[6.281s] Invoked command in '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app -- -j16 -l16
+[6.302s] Invoking command in '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app
+[6.305s] -- Install configuration: ""
+[6.305s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/lib/ros2_qt5_gui_app/ros2_qt5_gui_app
+[6.306s] -- Set runtime path of "/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/lib/ros2_qt5_gui_app/ros2_qt5_gui_app" to ""
+[6.307s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ament_index/resource_index/package_run_dependencies/ros2_qt5_gui_app
+[6.307s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ament_index/resource_index/parent_prefix_path/ros2_qt5_gui_app
+[6.307s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/environment/ament_prefix_path.sh
+[6.307s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/environment/ament_prefix_path.dsv
+[6.307s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/environment/path.sh
+[6.307s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/environment/path.dsv
+[6.307s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/local_setup.bash
+[6.308s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/local_setup.sh
+[6.308s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/local_setup.zsh
+[6.308s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/local_setup.dsv
+[6.308s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/package.dsv
+[6.308s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ament_index/resource_index/packages/ros2_qt5_gui_app
+[6.308s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/cmake/ros2_qt5_gui_appConfig.cmake
+[6.308s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/cmake/ros2_qt5_gui_appConfig-version.cmake
+[6.308s] -- Installing: /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/install/ros2_qt5_gui_app/share/ros2_qt5_gui_app/package.xml
+[6.310s] Invoked command in '/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/build/ros2_qt5_gui_app

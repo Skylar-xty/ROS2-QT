@@ -7,7 +7,7 @@
       },
       "includePath": [
         "/opt/ros/foxy/include/**",
-        "/home/skylar-xty/Add_Pan/ROS2/ros2_ws1/src/ros2_qt_demo/include/**",
+        "/home/skylar-xty/Add_Pan/ROS2/ros2_ws1/src/ros2_qt5_gui_app/include/**",
         "include/**",
         "/usr/include/**"
       ],
