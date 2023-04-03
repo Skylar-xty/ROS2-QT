@@ -1,0 +1,14 @@
+Gazebo multi-robot simulator, version 11.9.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1657441186 336187977) [Msg] Waiting for master.
+(1657441186 336569396) Failed to create connection to remote host[localhost:11345]
+(1657441187 343383942) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1657441187 343444404) [Msg] Publicized address: 10.241.70.115
+(1657441187 345759631) Loaded .ini file from: "/home/skylar-xty/.gazebo/gui.ini"
+(1657441187 996153968) [Wrn] [Event.cc:61] Warning: Deleting a connection right after creation. Make sure to save the ConnectionPtr from a Connect call
+(1657441188 607745392) No spacenav daemon found. Spacenav functionality is disabled
+(1657441191 408621736) [Wrn] [Event.cc:61] Warning: Deleting a connection right after creation. Make sure to save the ConnectionPtr from a Connect call
