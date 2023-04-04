@@ -1,0 +1,5 @@
+-I/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app
+-I/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/build-ros2_qt5_gui_app-Imported_Kit_8e2b74-Debug
+-o
+/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/build-ros2_qt5_gui_app-Imported_Kit_8e2b74-Debug/include/moc_rclcomm.cpp
+/home/skylar-xty/Add_Pan/ROS2/ROS2-QT/QT_1/src/ros2_qt5_gui_app/include/rclcomm.h

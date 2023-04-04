@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "rclcomm.h"
+#include "roboItem.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -20,9 +21,20 @@ public slots:
     void onRecvData(QString);
 
 private slots:
+    void on_pushButton_4_clicked();
+
+private slots:
+    void on_pushButton_3_clicked();
+
+private slots:
+    void on_pushButton_2_clicked();
+
+private slots:
     void on_pushButton_clicked();
 
 private:
     Ui::MainWindow *ui;
+    QGraphicsScene *m_qGraphicScene = nullptr;
+    roboItem* m_roboItem=nullptr;
 };
 #endif // MAINWINDOW_H
